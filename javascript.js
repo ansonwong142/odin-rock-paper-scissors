@@ -11,4 +11,11 @@ function getComputerChoice(){
     }
 }
 
+function getHumanChoice(){
+    let humanChoice = prompt('What is your choice?')
+    return humanChoice;
+}
+
 let computerChoice = getComputerChoice();
+let humanChoice = getHumanChoice();
+console.log('human choice: '+humanChoice);

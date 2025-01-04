@@ -1,0 +1,20 @@
+1. no ui, input and output through console
+2. user will input their choice of rock, paper or scissor
+3. the desired output is the winner of rock paper scissor stage
+4. the program needs to return whether its a tie or who won
+
+
+Pseudocode
+
+get the computers choice
+    create a random number generator between 1,2,3 to represent 3 different choices
+
+get user input for their choice
+
+create a score variable for both the user and computers
+
+write the logic to play a single round
+
+create a loop for 5 rounds
+
+determine the winner

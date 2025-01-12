@@ -60,7 +60,13 @@ function displayWinner(humanScore, computerScore) {
         console.log('Game over, you lose!');
     }
 }
-//const computerChoice = getComputerChoice();
-//const humanChoice = getHumanChoice();
 
-playGame();
+const inputButtons = document.querySelectorAll("button");
+
+inputButtons.forEach((button) => {
+    button.addEventListener("click", (e) => {
+        playRound(e.target.classList.value, getComputerChoice());
+    });
+});
+
+//playGame();
